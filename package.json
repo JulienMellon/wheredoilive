@@ -1,0 +1,22 @@
+{
+  "name": "rat_sightings",
+  "version": "1.0.0",
+  "description": "find rat sightings in your area",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienMellon/wheredoilive.git"
+  },
+  "author": "Julien Mellon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulienMellon/wheredoilive/issues"
+  },
+  "homepage": "https://github.com/JulienMellon/wheredoilive#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
