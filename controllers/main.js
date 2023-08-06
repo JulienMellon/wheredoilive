@@ -1,6 +1,6 @@
 module.exports = {
     getIndex: (req, res) => {
-        res.sendFile("../public/index.html")
+        res.render("../views/whereami.ejs", {latitude: 'lats dude', longitude: "longtudesilver"})
     }
 }
 

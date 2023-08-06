@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<body>
+    <h1>Lat/Long Finder in EJS</h1>
+    <h2>Using google maps API to tell you your lat and long</h2>
+    <h3>Enter Your Address here</h3>
+    <form action="/latlong" method="get">
+        <input type="text" label="Address" name="Address">
+        <button type="submit">click here to submit</button>
+    </form>
+    <h3>lat: <%= latitude %></h3>
+    <h3>long: <%= longitude %></h3>
+
+</body>
+</html>
